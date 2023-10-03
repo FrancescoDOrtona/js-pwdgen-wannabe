@@ -36,7 +36,7 @@ const randomNumber = Math.floor(Math.random() * 100);
 // - Concatenare le 4 variabili per formare una password
 //     - dichiarare una variabile passwordGeneration dove concateno le 4 stringhe
 
-let password = userName + userSurname + userColor + randomNumber
+const password = userName + userSurname + userColor + randomNumber
 console.log(password);
 
 // - Stampare la password nel dom
