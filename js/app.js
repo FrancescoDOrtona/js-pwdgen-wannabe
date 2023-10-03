@@ -1,6 +1,8 @@
 // - Chiedere all'utente il suo nome:
 //     - dichiarare una variabile
+
 let userName;
+
 //     - assegnare alla variabile il valore restituito dal prompt
 
 userName = prompt ('Nome');
@@ -34,7 +36,7 @@ const randomNumber = Math.floor(Math.random() * 100);
   console.log(randomNumber);
 
 // - Concatenare le 4 variabili per formare una password
-//     - dichiarare una variabile passwordGeneration dove concateno le 4 stringhe
+//     - dichiarare una variabile password dove concateno le 4 stringhe
 
 const password = userName + userSurname + userColor + randomNumber
 console.log(password);
